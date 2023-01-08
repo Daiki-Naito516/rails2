@@ -23,7 +23,7 @@
                 <span class="small-title">1泊</span> 
                 <strong><%= number_to_currency(room.price) %></strong>                                            
               </a>
-              <p><%= room.created_at %></p>
+              <p><%= room.created_at.to_s(:datetime_jp) %></p>
             </footer>
           </div>
         </div>
